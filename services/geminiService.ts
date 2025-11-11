@@ -1,6 +1,6 @@
 import { GoogleGenAI } from "@google/genai";
 
-const API_KEY = process.env.API_KEY;
+const API_KEY ="AIzaSyDu9nQUDvzjYvBm74QpJEAcG3N0kf_Y7dY";
 
 if (!API_KEY) {
   console.warn("Gemini API key not found. Please set the API_KEY environment variable.");
